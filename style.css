@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+  
+font-family: sans-serif;
+background-image: url(mountains-1761292_960_720.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.search input{
+border-radius: 5px;
+padding: 0.4rem;
+width:300px;
+background: #7c7c7c2b;
+color: white;
+outline: none;
+border: none;
+font-size: 24px;
+text-transform: capitalize;
+}
+
+.search button{
+    padding: 0.6rem;
+}
+
+.search button:hover{
+    cursor: pointer;
+    background: #7c7c7c2b;
+    outline: none;
+border: none;
+color: white;
+padding: 0.8rem;
+border-radius: 5px;
+}
+.card{
+    background-color: #222;
+   color: #eaeaea;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+.card h2{
+    text-align: center;
+    font-size: 34px;
+}
+.city{
+    margin-top: 10px;
+}
+
+.info {
+    margin: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.info p {
+    margin-top: 20px;
+}
+
+.genelDeger {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.genelDeger .fa-circle {
+    font-size: 22px;
+    transform: translate(10px, 25px);
+
+}
+
+.genelDeger .fa-c {
+    transform: translate(10px, 25px);
+    font-size: 4rem;
+}
+
+#sicaklik {
+
+    font-size: 4rem;
+}
+
+.his {
+    display: flex;
+    justify-content: center;
+
+}
+
+.his .fa-c {
+    font-size: 2rem;
+    transform: translate(10px, 25px);
+}
+
+.his .fa-circle {
+    font-size: 1rem;
+    transform: translate(10px, 20px);
+}
